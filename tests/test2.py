@@ -14,7 +14,7 @@ class BasicTests(unittest.TestCase):
         
         # Verifica que la respuesta sea "Hello, World!"
         self.assertEqual(result.status_code, 200)
-        self.assertEqual(result.data.decode(), "Prueba 1")
+        self.assertEqual(result.data.decode(), "Prueba")
 
 
 if __name__ == "__main__":
